@@ -7,6 +7,11 @@ class Seta {
     else ang = (a + 90) * PI / 180 ;
   }
   
+  Seta(float a, float n) {
+    amp = a;
+    ang = n;
+  }
+  
   void mostra(float x, float y) {
     stroke(255);
     strokeWeight(1);
